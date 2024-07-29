@@ -38,7 +38,7 @@ def copy_files_recursively(src_dir, dst_dir):
 def main():
     # Парсинг аргументів командного рядка
     if len(sys.argv) < 2:
-        print("Usage: python script.py <source_directory> [<destination_directory>]")
+        print("Usage: python copy_files.py <source_directory> [<destination_directory>]")
         sys.exit(1)
 
     src_dir = sys.argv[1]
