@@ -24,7 +24,7 @@ def main():
 
     turtle.speed(0)  # Максимальна швидкість малювання
     turtle.penup()
-    turtle.goto(-length/2, length/3)  # Початкова позиція
+    turtle.goto(-length/2, length/3)  # Задаємо очаткову позицію
     turtle.pendown()
 
     draw_snowflake(length, depth)
